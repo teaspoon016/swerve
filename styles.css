@@ -136,7 +136,6 @@ a.navbar-brand{
 }
 .wrapper .internal-left{
     flex: 3;
-    border: 2px solid green;
     overflow-y: scroll;
     height: 100%;
     width: 100%;
