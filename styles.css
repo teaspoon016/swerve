@@ -11,12 +11,17 @@ nav{
     justify-content: space-between;
     background: white;
     box-shadow:2px 5px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10vh;
 }
 nav > .left > a.navbar-brand img{
     width: 47px;
     margin-right: 10px;
     margin-top: 5px;
     margin-left: 3px;
+    z-index: 1;
 }
 /* .child{
     border: 2px solid green;
@@ -130,9 +135,13 @@ a.navbar-brand{
 
 
 .wrapper{
+    margin-top: 10vh;
+    /* padding-top: 55px; */
     display: flex;
     justify-content: space-between;
     height: 100vh;
+    border: 3px solid red;
+    z-index: -1;
 }
 .wrapper .internal-left{
     flex: 3;
@@ -145,8 +154,8 @@ a.navbar-brand{
     width: 30px;
     height: 35px;
     border-radius: 45px;
-    position: relative;
-    left: 2px;
+    /* position: relative;
+    left: 2px; */
     margin-right: 5px;
 }
 .first-content .user{
